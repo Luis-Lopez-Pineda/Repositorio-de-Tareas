@@ -1,6 +1,6 @@
 //Ejercicio 2: Simulación de una Operación Asíncrona con Promesas 
 
-const consultaBD = async () =>{
+const consultaBD = () =>{
 
     return new Promise((resolve, reject) => {
         setTimeout( () => {
